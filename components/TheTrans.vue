@@ -14,7 +14,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="item in transactions" :key="item.id">
+                <tr v-for="item in transactions.slice().reverse()" :key="item.id">
                     <td>{{ item.type_operation }}</td>
                     <td> {{ item.amount.toLocaleString() }} ₸</td>
                     <td>{{ formatDate(item.date) }}</td>
@@ -34,7 +34,7 @@
             </tbody>
         </table>
         <div class="mob">
-            <div class="transa" v-for="item in transactions" :key="item.id">
+            <div class="transa" v-for="item in transactions.slice().reverse()" :key="item.id">
                 <div class="trans__item">
                     <div class="d-flex align-items-center justify-content-between">
                         <span>{{ item.type_operation }}</span>
