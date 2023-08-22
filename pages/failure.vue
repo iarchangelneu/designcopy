@@ -38,7 +38,7 @@ export default {
     },
     mounted() {
         const url = window.location.href;
-        const match = url.match(/order_pay_(\d+)/);
+        const match = url.match(/order_pay_visuality_(\d+)/);
 
         if (match) {
             this.extractedValue = match[0];

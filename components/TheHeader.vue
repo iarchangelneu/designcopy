@@ -31,7 +31,7 @@
         <div class="mob">
             <div class="d-flex justify-content-between">
                 <NuxtLink to="/">
-                    <img src="@/assets/img/headermob.svg" alt="">
+                    <img src="@/assets/img/headerlogo.svg" alt="">
                 </NuxtLink>
                 <div class="d-flex burg">
                     <div class="cartrap mt-3" v-if="accountType == 'buyer'">
@@ -56,14 +56,14 @@
                                     <div v-else>
                                         <NuxtLink style="cursor: pointer;" alt="" data-toggle="modal"
                                             :data-target="accountType === 'seller' ? '#outModal' : '#inModal'">{{
-                                                                                        userBalance }} ₸</NuxtLink>
+                                                userBalance }} ₸</NuxtLink>
                                         <NuxtLink :to="this.accountUrl" @click="closepls">Личный кабинет</NuxtLink>
                                     </div>
                                     <NuxtLink to="/catalog" @click="closepls">Каталог</NuxtLink>
                                     <NuxtLink to="/catalog?search=true" @click="closepls">поиск</NuxtLink>
 
                                     <div class="text-center">
-                                        <img src="@/assets/img/headermob.svg" alt="">
+                                        <img src="@/assets/img/headerlogo.svg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@
                         <img src="@/assets/img/delete.svg" alt="" style="cursor: pointer;" @click="deleteFromCart(item.id)">
                     </div>
                     <p class="mb-0">{{ (Math.floor(item.products.price - ((item.products.price * item.products.discount) /
-                                            100))).toLocaleString() }} ₸</p>
+                        100))).toLocaleString() }} ₸</p>
                 </div>
             </div>
 

@@ -11,7 +11,7 @@
                 </div>
 
                 <div>
-                    <img src="@/assets/img/footerlogo.svg" class="img-fluid" alt="">
+                    <img src="@/assets/img/headerlogo.svg" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="text-left copyright">
@@ -27,7 +27,7 @@
             <div class="links">
                 <div class="d-flex justify-content-between align-items-center">
                     <NuxtLink to="/for-designer">для дизайнера</NuxtLink>
-                    <img src="@/assets/img/footermob.svg" alt="">
+                    <img src="@/assets/img/headerlogo.svg" alt="">
                 </div>
                 <NuxtLink :to="this.accountUrl">личный кабинет</NuxtLink>
                 <NuxtLink to="/terms">пользовательское соглашение</NuxtLink>
