@@ -51,7 +51,7 @@ export default {
     data() {
         return {
             count: null,
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             accountType: '',
         }
     },

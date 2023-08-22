@@ -15,7 +15,7 @@
                                 :disabled="hasSelectedCategory" required ref="selInp">
                                 <option value="" disabled>Выбор категории</option>
                                 <option v-for="(category, index) in categories" :value="index" :key="index">{{ category
-                                }}
+                                                                    }}
                                 </option>
                             </select>
                         </div>
@@ -121,7 +121,7 @@ export default {
             selectedDesignName: '',
             selectedDesign: [],
             isDraggingFile2: false,
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
         }
     },
 

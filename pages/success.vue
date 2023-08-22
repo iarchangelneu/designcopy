@@ -14,7 +14,7 @@ export default {
     mixins: [global],
     data() {
         return {
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
         }
     },
     methods: {

@@ -509,7 +509,7 @@ export default {
             },
             currentSlideIndex: 0,
             totalSlides: 0,
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             populars: [],
         };
     },

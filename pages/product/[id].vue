@@ -53,7 +53,7 @@ export default {
             productId: this.$route.params.id,
             product: [],
             seller: [],
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             category: '',
         }
     },
@@ -108,7 +108,7 @@ export default {
 <script setup>
 const route = useRoute();
 const itemId = route.params.id
-const productDetails = await fetch(`https://themes.kz/api/products/detail-product/${itemId}`).then(res => res.json()).then(data => data);
+const productDetails = await fetch(`https://visuality.kz/api/products/detail-product/${itemId}`).then(res => res.json()).then(data => data);
 const title = `${productDetails.name}`
 useSeoMeta({
     title: () => title + ' | Design Market',

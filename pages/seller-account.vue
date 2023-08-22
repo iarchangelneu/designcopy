@@ -185,7 +185,7 @@ export default {
             description: '',
             account: [],
             password: '',
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             email: '',
             name: '',
             sales: [],

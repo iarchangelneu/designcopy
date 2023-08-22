@@ -32,7 +32,7 @@ export default {
         return {
             email: '',
             password: '',
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
         }
     },
     methods: {

@@ -4,7 +4,7 @@ export default {
     return {
       isAuth: false,
       accountUrl: "",
-      pathUrl: 'https://themes.kz',
+      pathUrl: 'https://visuality.kz',
       cart: [],
     };
   },

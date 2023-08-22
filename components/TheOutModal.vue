@@ -54,7 +54,7 @@ export default {
     data() {
         return {
             count: null,
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             cardNumber: '',
             cardNumberMaxLength: 19,
             accountType: '',

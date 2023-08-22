@@ -16,7 +16,7 @@
                         <img src="@/assets/img/delete.svg" alt="" style="cursor: pointer;" @click="deleteFromCart(item.id)">
                     </div>
                     <p class="mb-0">{{ (Math.floor(item.products.price - ((item.products.price * item.products.discount) /
-                        100))).toLocaleString() }} ₸</p>
+                                            100))).toLocaleString() }} ₸</p>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ export default {
     data() {
         return {
             closed: false,
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             cart: [],
         }
     },

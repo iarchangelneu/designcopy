@@ -11,7 +11,7 @@
                     <div class="name">
                         <span>{{ item.products.name }}</span>
                         <small>{{ (Math.floor(item.products.price - ((item.products.price * item.products.discount) /
-                            100))).toLocaleString() }} ₸</small>
+                                                    100))).toLocaleString() }} ₸</small>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ export default {
     data() {
         return {
             cart: [],
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             cartLength: localStorage.getItem('cartLength'),
         }
     },

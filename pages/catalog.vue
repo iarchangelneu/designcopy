@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <img :src="product.main_image"
-                        :class="{ notimg: product.main_image == 'https://themes.kz/media/media/system/no_photo.jpg' }"
+                        :class="{ notimg: product.main_image == 'https://visuality.kz/media/media/system/no_photo.jpg' }"
                         alt="">
                     <div class="price">
                         {{ (Math.floor(product.price - ((product.price * product.discount) / 100))).toLocaleString() }} ₸
@@ -103,7 +103,7 @@ export default {
             products: [],
             minPrice: null,
             maxPrice: null,
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             categories: {
                 1: "Развлечения",
                 2: "Еда и рестораны",

@@ -128,7 +128,7 @@ export default {
             email: '',
             chats: [],
             seller: [],
-            pathUrl: 'https://themes.kz',
+            pathUrl: 'https://visuality.kz',
             buys: [],
             sendId: null,
             chatId: null,
