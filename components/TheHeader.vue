@@ -21,7 +21,7 @@
                 </div>
                 <div v-else class="first">
                     <NuxtLink style="cursor:pointer" data-toggle="modal"
-                        :data-target="accountType === 'seller' ? '#outModal' : '#inModal'">{{ userBalance }} ₸
+                        :data-target="accountType === 'seller' ? '#outModal' : '#inModal'">{{ Math.floor(userBalance) }} ₸
                     </NuxtLink>
                     <NuxtLink :to="this.accountUrl">личный кабинет</NuxtLink>
                 </div>
@@ -56,7 +56,7 @@
                                     <div v-else>
                                         <NuxtLink style="cursor: pointer;" alt="" data-toggle="modal"
                                             :data-target="accountType === 'seller' ? '#outModal' : '#inModal'">{{
-                                                userBalance }} ₸</NuxtLink>
+                                                Math.floor(userBalance) }} ₸</NuxtLink>
                                         <NuxtLink :to="this.accountUrl" @click="closepls">Личный кабинет</NuxtLink>
                                     </div>
                                     <NuxtLink to="/catalog" @click="closepls">Каталог</NuxtLink>
