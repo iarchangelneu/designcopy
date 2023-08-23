@@ -6,56 +6,56 @@
                 <!-- Слайды -->
                 <swiper-slide>
                     <div class="d-flex mainslide">
-                        <h1 class="mobtitle">Шаблон сайта строительной компании</h1>
+                        <h1 class="mobtitle">Шаблон сайта о путешествиях в горы</h1>
                         <img class="img-fluid" src="@/assets/img/mainsl.png" alt="" style="">
 
                         <div class="ml-5">
-                            <h1 class="pctitle">Шаблон сайта строительной компании</h1>
+                            <h1 class="pctitle">Шаблон сайта о путешествиях в горы</h1>
 
                             <div class="mainbtn">
-                                <NuxtLink to="/product/15">ПОДРОБНЕЕ</NuxtLink>
+                                <NuxtLink to="/product/10">ПОДРОБНЕЕ</NuxtLink>
                             </div>
                         </div>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="d-flex mainslide">
-                        <h1 class="mobtitle">Шаблон сайта женской одежды</h1>
+                        <h1 class="mobtitle">Шаблон сайта магазина мебели</h1>
                         <img class="img-fluid" src="@/assets/img/mainsl2.png" alt="" style="">
 
                         <div class="ml-5">
-                            <h1 class="pctitle">Шаблон сайта женской одежды</h1>
+                            <h1 class="pctitle">Шаблон сайта магазина мебели</h1>
 
                             <div class="mainbtn">
-                                <NuxtLink to="/product/14">ПОДРОБНЕЕ</NuxtLink>
+                                <NuxtLink to="/product/13">ПОДРОБНЕЕ</NuxtLink>
                             </div>
                         </div>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="d-flex mainslide">
-                        <h1 class="mobtitle">Шаблон сайта экспресс-аудит SEO</h1>
+                        <h1 class="mobtitle">Шаблон сайта аренды автомобилей</h1>
                         <img class="img-fluid" src="@/assets/img/mainsl3.png" alt="" style="">
 
                         <div class="ml-5">
-                            <h1 class="pctitle">Шаблон сайта экспресс-аудит SEO</h1>
+                            <h1 class="pctitle">Шаблон сайта аренды автомобилей</h1>
 
                             <div class="mainbtn">
-                                <NuxtLink to="/product/5">ПОДРОБНЕЕ</NuxtLink>
+                                <NuxtLink to="/product/20">ПОДРОБНЕЕ</NuxtLink>
                             </div>
                         </div>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="d-flex mainslide">
-                        <h1 class="mobtitle">Шаблон сайта дизайнерских сумок</h1>
+                        <h1 class="mobtitle">Шаблон сайта отеля</h1>
                         <img class="img-fluid" src="@/assets/img/mainsl4.png" alt="" style="">
 
                         <div class="ml-5">
-                            <h1 class="pctitle">Шаблон сайта дизайнерских сумок</h1>
+                            <h1 class="pctitle">Шаблон сайта отеля</h1>
 
                             <div class="mainbtn">
-                                <NuxtLink to="/product/2    ">ПОДРОБНЕЕ</NuxtLink>
+                                <NuxtLink to="/product/22   ">ПОДРОБНЕЕ</NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -88,11 +88,11 @@
                             <img src="@/assets/img/sale1.png" alt="">
                             <div class="smallhover">
                                 <div class="hvrbtn">
-                                    <NuxtLink to="/product/19" class="lala">ПОДРОБНЕЕ</NuxtLink>
+                                    <NuxtLink to="/product/21" class="lala">ПОДРОБНЕЕ</NuxtLink>
                                 </div>
                             </div>
                             <div class="sale2">
-                                <span>- 20%</span>
+                                <span>- 10%</span>
                             </div>
                         </div>
                         <div class="smallimgs">
@@ -100,47 +100,47 @@
                                 <img src="@/assets/img/sale2.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/17">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/27">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
-                                </div>
-                                <div class="sale">
-                                    <span>- 15%</span>
-                                </div>
-                            </div>
-                            <div class="smallsh">
-                                <img src="@/assets/img/sale3.png" alt="">
-                                <div class="smallhover">
-                                    <div class="hvrbtn">
-                                        <NuxtLink to="/product/24">ПОДРОБНЕЕ</NuxtLink>
-                                    </div>
-
                                 </div>
                                 <div class="sale">
                                     <span>- 10%</span>
                                 </div>
                             </div>
                             <div class="smallsh">
-                                <img src="@/assets/img/sale4.png" alt="">
+                                <img src="@/assets/img/sale3.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/20">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/19">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
 
                                 </div>
                                 <div class="sale">
-                                    <span>- 15%</span>
+                                    <span>- 5%</span>
+                                </div>
+                            </div>
+                            <div class="smallsh">
+                                <img src="@/assets/img/sale4.png" alt="">
+                                <div class="smallhover">
+                                    <div class="hvrbtn">
+                                        <NuxtLink to="/product/25">ПОДРОБНЕЕ</NuxtLink>
+                                    </div>
+
+                                </div>
+                                <div class="sale">
+                                    <span>- 5%</span>
                                 </div>
                             </div>
                             <div class="smallsh">
                                 <img src="@/assets/img/sale5.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/26">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/16">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
 
                                 </div>
                                 <div class="sale">
-                                    <span>- 15%</span>
+                                    <span>- 10%</span>
                                 </div>
                             </div>
 
@@ -153,11 +153,11 @@
                             <img src="@/assets/img/sale6.png" alt="">
                             <div class="smallhover">
                                 <div class="hvrbtn">
-                                    <NuxtLink to="/product/25" class="lala">ПОДРОБНЕЕ</NuxtLink>
+                                    <NuxtLink to="/product/12" class="lala">ПОДРОБНЕЕ</NuxtLink>
                                 </div>
                             </div>
                             <div class="sale2">
-                                <span>- 10%</span>
+                                <span>- 1%</span>
                             </div>
                         </div>
                         <div class="smallimgs">
@@ -165,7 +165,7 @@
                                 <img src="@/assets/img/sale7.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/16">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/24">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
                                 </div>
                                 <div class="sale">
@@ -176,7 +176,19 @@
                                 <img src="@/assets/img/sale8.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/29">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/26">ПОДРОБНЕЕ</NuxtLink>
+                                    </div>
+
+                                </div>
+                                <div class="sale">
+                                    <span>- 5%</span>
+                                </div>
+                            </div>
+                            <div class="smallsh">
+                                <img src="@/assets/img/sale9.png" alt="">
+                                <div class="smallhover">
+                                    <div class="hvrbtn">
+                                        <NuxtLink to="/product/18">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
 
                                 </div>
@@ -185,22 +197,10 @@
                                 </div>
                             </div>
                             <div class="smallsh">
-                                <img src="@/assets/img/sale9.png" alt="">
-                                <div class="smallhover">
-                                    <div class="hvrbtn">
-                                        <NuxtLink to="/product/33">ПОДРОБНЕЕ</NuxtLink>
-                                    </div>
-
-                                </div>
-                                <div class="sale">
-                                    <span>- 20%</span>
-                                </div>
-                            </div>
-                            <div class="smallsh">
                                 <img src="@/assets/img/sale10.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/31">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/14">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
 
                                 </div>
@@ -218,11 +218,11 @@
                             <img src="@/assets/img/sale11.png" alt="">
                             <div class="smallhover">
                                 <div class="hvrbtn">
-                                    <NuxtLink to="/product/35" class="lala">ПОДРОБНЕЕ</NuxtLink>
+                                    <NuxtLink to="/product/17" class="lala">ПОДРОБНЕЕ</NuxtLink>
                                 </div>
                             </div>
                             <div class="sale2">
-                                <span>- 15%</span>
+                                <span>- 5%</span>
                             </div>
                         </div>
                         <div class="smallimgs">
@@ -230,18 +230,18 @@
                                 <img src="@/assets/img/sale12.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/34">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/8">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
                                 </div>
                                 <div class="sale">
-                                    <span>- 10%</span>
+                                    <span>- 5%</span>
                                 </div>
                             </div>
                             <div class="smallsh">
                                 <img src="@/assets/img/sale13.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/36">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/9">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
 
                                 </div>
@@ -253,24 +253,24 @@
                                 <img src="@/assets/img/sale14.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/37">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/3">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
 
                                 </div>
                                 <div class="sale">
-                                    <span>- 10%</span>
+                                    <span>- 5%</span>
                                 </div>
                             </div>
                             <div class="smallsh">
                                 <img src="@/assets/img/sale15.png" alt="">
                                 <div class="smallhover">
                                     <div class="hvrbtn">
-                                        <NuxtLink to="/product/38">ПОДРОБНЕЕ</NuxtLink>
+                                        <NuxtLink to="/product/7">ПОДРОБНЕЕ</NuxtLink>
                                     </div>
 
                                 </div>
                                 <div class="sale">
-                                    <span>- 10%</span>
+                                    <span>- 5%</span>
                                 </div>
                             </div>
 
@@ -860,7 +860,7 @@ svg:hover stop:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 50px;
+    border-radius: 20px;
     backdrop-filter: blur(3.5px);
     transition: all .3s ease;
     overflow: hidden;
