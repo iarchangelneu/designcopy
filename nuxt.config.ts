@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['nuxt-gtag'],
 
   gtag: {
-    id: 'G-3FQFJS67Q4'
+    id: 'G-6N1VY415YN'
   },
   app: {
     head: {
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
           src: 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js'
         },
         {
-          src: '//code.jivo.ru/widget/Gc7HOcnFYx',
+          src: '//code.jivo.ru/widget/WLpxi85c2f',
           async: true,
         },   
       ]
